@@ -52,32 +52,32 @@ public class AddNewRoom extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("MV Boli", 1, 26)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI Variable", 1, 26)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Add New Room");
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel3.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Room Name");
 
-        jLabel4.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Room Category");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel5.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Room Price");
 
-        jLabel6.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Room ID");
 
         jButton1.setBackground(new java.awt.Color(255, 153, 0));
-        jButton1.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Add New Room");
 

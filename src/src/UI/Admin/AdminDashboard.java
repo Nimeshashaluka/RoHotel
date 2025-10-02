@@ -159,7 +159,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel2.setLayout(new java.awt.GridLayout(9, 0, 30, 30));
 
         jButton2.setBackground(new java.awt.Color(255, 164, 36));
-        jButton2.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Dashboard");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -170,7 +170,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel2.add(jButton2);
 
         jButton1.setBackground(new java.awt.Color(255, 164, 36));
-        jButton1.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Food Order");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -181,7 +181,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel2.add(jButton1);
 
         jButton3.setBackground(new java.awt.Color(255, 164, 36));
-        jButton3.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Rooms Analysis");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -192,7 +192,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel2.add(jButton3);
 
         jButton4.setBackground(new java.awt.Color(255, 164, 36));
-        jButton4.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Sales Analysis");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -203,7 +203,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel2.add(jButton4);
 
         jButton6.setBackground(new java.awt.Color(255, 164, 36));
-        jButton6.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Reports");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -218,7 +218,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
         jPanel3.setPreferredSize(new java.awt.Dimension(1144, 120));
 
-        jLabel1.setFont(new java.awt.Font("MV Boli", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI Variable", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Dashboard");
 
@@ -244,7 +244,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jLabel51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/logo.jpg"))); // NOI18N
 
-        jLabel52.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jLabel52.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel52.setForeground(new java.awt.Color(255, 255, 255));
         jLabel52.setText("(Admin)");
 
@@ -264,7 +264,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 358, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 866, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 869, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addGap(50, 50, 50))
         );
@@ -282,7 +282,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)))
-                .addContainerGap(7, Short.MAX_VALUE))
+                .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel3, java.awt.BorderLayout.PAGE_START);
@@ -307,7 +307,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel23.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel4.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Total Sales");
 
@@ -315,7 +315,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Rs. 35,560.00");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 153, 0));
         jLabel6.setText("Month");
 
@@ -344,7 +344,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel6)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -362,7 +362,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel22.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel8.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Food Sales");
 
@@ -370,7 +370,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Rs. 18,760.00");
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 153, 0));
         jLabel10.setText("Month");
 
@@ -399,7 +399,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel9)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel10)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -417,7 +417,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel21.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel12.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Room Revenue");
 
@@ -425,7 +425,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Rs. 16,800.00");
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 153, 0));
         jLabel14.setText("Month");
 
@@ -441,7 +441,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel13)
                     .addComponent(jLabel12))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
@@ -454,7 +454,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel13)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel14)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -472,7 +472,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel20.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel16.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Available Room");
 
@@ -480,7 +480,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Count : 8");
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 153, 0));
         jLabel18.setText("Today");
 
@@ -496,7 +496,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel17)
                     .addComponent(jLabel16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
@@ -509,7 +509,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel17)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel18)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -529,7 +529,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel13.setBackground(new java.awt.Color(0, 0, 0));
         jPanel13.setPreferredSize(new java.awt.Dimension(400, 496));
 
-        jLabel21.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Popular Items");
 
@@ -540,7 +540,7 @@ public class AdminDashboard extends javax.swing.JFrame {
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addGap(26, 26, 26)
                 .addComponent(jLabel21)
-                .addContainerGap(248, Short.MAX_VALUE))
+                .addContainerGap(233, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -554,7 +554,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel14.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel20.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Sales Overview");
 
@@ -565,14 +565,14 @@ public class AdminDashboard extends javax.swing.JFrame {
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGap(24, 24, 24)
                 .addComponent(jLabel20)
-                .addContainerGap(698, Short.MAX_VALUE))
+                .addContainerGap(703, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addComponent(jLabel20)
-                .addContainerGap(478, Short.MAX_VALUE))
+                .addContainerGap(485, Short.MAX_VALUE))
         );
 
         jPanel12.add(jPanel14, java.awt.BorderLayout.CENTER);
@@ -588,22 +588,22 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel19.setBackground(new java.awt.Color(0, 0, 0));
         jPanel19.setPreferredSize(new java.awt.Dimension(1305, 150));
 
-        jLabel22.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Search Product");
 
         jButton7.setBackground(new java.awt.Color(255, 153, 0));
-        jButton7.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jButton7.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Search");
 
-        jLabel23.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Sort By Qty");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel24.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Sort By Price");
 
@@ -639,13 +639,13 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel22)
                     .addComponent(jLabel23)
                     .addComponent(jLabel24))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jComboBox2, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE)
                     .addComponent(jButton7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING))
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addContainerGap(41, Short.MAX_VALUE))
         );
 
         jPanel6.add(jPanel19, java.awt.BorderLayout.PAGE_START);
@@ -656,12 +656,12 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel10.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel25.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Food Analysis");
 
         jButton5.setBackground(new java.awt.Color(255, 153, 0));
-        jButton5.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("All View");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -671,7 +671,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         });
 
         jButton8.setBackground(new java.awt.Color(255, 153, 0));
-        jButton8.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jButton8.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("+Add New Food");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -687,7 +687,7 @@ public class AdminDashboard extends javax.swing.JFrame {
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel25)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 777, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 784, Short.MAX_VALUE)
                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -747,15 +747,15 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel30.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel26.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setText("Booking Rooms");
 
-        jLabel27.setFont(new java.awt.Font("MV Boli", 1, 28)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Segoe UI Variable", 1, 28)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Count : 8");
 
-        jLabel28.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel28.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel28.setForeground(new java.awt.Color(255, 153, 0));
         jLabel28.setText("Today");
 
@@ -791,7 +791,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel27))
                 .addGap(10, 10, 10)
                 .addComponent(jLabel28)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         jPanel27.add(jPanel30, java.awt.BorderLayout.CENTER);
@@ -805,15 +805,15 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel31.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel30.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel30.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel30.setForeground(new java.awt.Color(255, 255, 255));
         jLabel30.setText("Available Rooms");
 
-        jLabel31.setFont(new java.awt.Font("MV Boli", 1, 28)); // NOI18N
+        jLabel31.setFont(new java.awt.Font("Segoe UI Variable", 1, 28)); // NOI18N
         jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("Count : 5");
 
-        jLabel32.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel32.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(255, 153, 0));
         jLabel32.setText("Today");
 
@@ -848,7 +848,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel31))
                 .addGap(10, 10, 10)
                 .addComponent(jLabel32)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         jPanel28.add(jPanel31, java.awt.BorderLayout.CENTER);
@@ -862,15 +862,15 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel32.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel34.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel34.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText("Rent Rooms");
 
-        jLabel35.setFont(new java.awt.Font("MV Boli", 1, 28)); // NOI18N
+        jLabel35.setFont(new java.awt.Font("Segoe UI Variable", 1, 28)); // NOI18N
         jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setText("Count : 11");
 
-        jLabel36.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel36.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel36.setForeground(new java.awt.Color(255, 153, 0));
         jLabel36.setText("Today");
 
@@ -906,7 +906,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel35))
                 .addGap(10, 10, 10)
                 .addComponent(jLabel36)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         jPanel29.add(jPanel32, java.awt.BorderLayout.CENTER);
@@ -921,12 +921,12 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel33.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel38.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel38.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setText("Room Booking History");
 
         jButton10.setBackground(new java.awt.Color(255, 153, 0));
-        jButton10.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jButton10.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText("+ Add New Room");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -995,45 +995,45 @@ public class AdminDashboard extends javax.swing.JFrame {
         jPanel34.setBackground(new java.awt.Color(0, 0, 0));
         jPanel34.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 20, 1, 20));
 
-        jLabel39.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel39.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel39.setForeground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Sales Analysis");
 
-        jLabel40.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel40.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setText("Date");
 
         jButton11.setBackground(new java.awt.Color(255, 153, 0));
-        jButton11.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jButton11.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
         jButton11.setText("Search");
 
         jButton12.setBackground(new java.awt.Color(255, 153, 0));
-        jButton12.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jButton12.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setText("All");
         jButton12.setPreferredSize(new java.awt.Dimension(150, 40));
 
         jButton13.setBackground(new java.awt.Color(102, 102, 102));
-        jButton13.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton13.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setText("1D");
         jButton13.setPreferredSize(new java.awt.Dimension(150, 40));
 
         jButton14.setBackground(new java.awt.Color(102, 102, 102));
-        jButton14.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton14.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
         jButton14.setText("14D");
         jButton14.setPreferredSize(new java.awt.Dimension(150, 40));
 
         jButton15.setBackground(new java.awt.Color(102, 102, 102));
-        jButton15.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton15.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton15.setForeground(new java.awt.Color(255, 255, 255));
         jButton15.setText("7D");
         jButton15.setPreferredSize(new java.awt.Dimension(150, 40));
 
         jButton16.setBackground(new java.awt.Color(102, 102, 102));
-        jButton16.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton16.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton16.setForeground(new java.awt.Color(255, 255, 255));
         jButton16.setText("30D");
         jButton16.setPreferredSize(new java.awt.Dimension(150, 40));
@@ -1058,11 +1058,11 @@ public class AdminDashboard extends javax.swing.JFrame {
         });
         jScrollPane3.setViewportView(jTable3);
 
-        jLabel41.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel41.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel41.setForeground(new java.awt.Color(255, 255, 255));
         jLabel41.setText(" Total Sales :");
 
-        jLabel42.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel42.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel42.setForeground(new java.awt.Color(255, 255, 255));
         jLabel42.setText(" Rs.  32,650.000");
 
@@ -1140,7 +1140,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel36.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel48.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel48.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel48.setForeground(new java.awt.Color(255, 255, 255));
         jLabel48.setText("Food Report");
         jPanel36.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
@@ -1150,7 +1150,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel37.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel49.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel49.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel49.setForeground(new java.awt.Color(255, 255, 255));
         jLabel49.setText("Rooms Report");
         jPanel37.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
@@ -1160,7 +1160,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel38.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel50.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel50.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel50.setForeground(new java.awt.Color(255, 255, 255));
         jLabel50.setText("Sales Report");
         jPanel38.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
@@ -1170,7 +1170,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jPanel39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel47.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel47.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel47.setForeground(new java.awt.Color(255, 255, 255));
         jLabel47.setText("Sales Report");
         jPanel39.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
@@ -1226,7 +1226,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 939, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();

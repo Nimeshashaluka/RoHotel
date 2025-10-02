@@ -101,7 +101,20 @@ public class CashierDashboard extends javax.swing.JFrame {
         jLabel42 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
         jButton11 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
         jPanel49 = new javax.swing.JPanel();
+        jPanel27 = new javax.swing.JPanel();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
         jPanel50 = new javax.swing.JPanel();
@@ -159,10 +172,10 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel2.setPreferredSize(new java.awt.Dimension(300, 635));
         jPanel2.setLayout(new java.awt.GridLayout(9, 0, 30, 30));
 
-        jButton2.setBackground(new java.awt.Color(255, 164, 36));
-        jButton2.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Dashboard");
+        jButton2.setBackground(new java.awt.Color(255, 164, 36));
+        jButton2.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -172,7 +185,7 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jButton1.setText("Food Order");
         jButton1.setBackground(new java.awt.Color(255, 164, 36));
-        jButton1.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,7 +196,7 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jButton3.setText("Room Rent");
         jButton3.setBackground(new java.awt.Color(255, 164, 36));
-        jButton3.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,10 +205,10 @@ public class CashierDashboard extends javax.swing.JFrame {
         });
         jPanel2.add(jButton3);
 
-        jButton4.setBackground(new java.awt.Color(255, 164, 36));
-        jButton4.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Daily Sales");
+        jButton4.setBackground(new java.awt.Color(255, 164, 36));
+        jButton4.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -203,10 +216,10 @@ public class CashierDashboard extends javax.swing.JFrame {
         });
         jPanel2.add(jButton4);
 
-        jButton6.setBackground(new java.awt.Color(255, 164, 36));
-        jButton6.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Invoice");
+        jButton6.setBackground(new java.awt.Color(255, 164, 36));
+        jButton6.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -220,7 +233,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel3.setPreferredSize(new java.awt.Dimension(1144, 120));
 
         jLabel1.setText("Dashboard");
-        jLabel1.setFont(new java.awt.Font("MV Boli", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI Variable", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setText("Welcome back, Cashier! Ready to serve customers today. ");
@@ -246,7 +259,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         jLabel51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/logo.jpg"))); // NOI18N
 
         jLabel52.setText("(Cashier)");
-        jLabel52.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jLabel52.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel52.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -283,7 +296,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)))
-                .addContainerGap(7, Short.MAX_VALUE))
+                .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel3, java.awt.BorderLayout.PAGE_START);
@@ -309,15 +322,15 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel23.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel4.setText("Today's Sales");
-        jLabel4.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setText("Rs. 35,560.00");
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI Variable", 0, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel6.setText("Today");
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 153, 0));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/money.png"))); // NOI18N
@@ -332,7 +345,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
@@ -345,7 +358,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel6)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -364,15 +377,15 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel22.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel8.setText("Food Sales");
-        jLabel8.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel9.setText("Count : 28");
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Segoe UI Variable", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel10.setText("Today");
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 153, 0));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/burger.png"))); // NOI18N
@@ -387,7 +400,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9)
                     .addComponent(jLabel8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
@@ -400,7 +413,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel9)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel10)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -419,15 +432,15 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel21.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel12.setText("Room Booking");
-        jLabel12.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel13.setText("Count : 12");
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Segoe UI Variable", 0, 24)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel14.setText("Today");
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 153, 0));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/double-bed.png"))); // NOI18N
@@ -455,7 +468,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel13)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel14)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(45, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -474,15 +487,15 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel20.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel16.setText("Available Room");
-        jLabel16.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel17.setText("Count : 8");
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel18.setText("Today");
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 153, 0));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/house.png"))); // NOI18N
@@ -497,7 +510,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel17)
                     .addComponent(jLabel16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
@@ -510,7 +523,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel17)
                 .addGap(27, 27, 27)
                 .addComponent(jLabel18)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -532,17 +545,17 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("Food Orders");
-        jLabel20.setFont(new java.awt.Font("MV Boli", 1, 28)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel21.setText("Take Customer food orders and generate invoices");
-        jLabel21.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 204, 204));
 
         jButton9.setText("Start New Order");
         jButton9.setBackground(new java.awt.Color(255, 153, 0));
-        jButton9.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton9.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -550,33 +563,35 @@ public class CashierDashboard extends javax.swing.JFrame {
             }
         });
 
+        jLabel55.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/addfood.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel13Layout.createSequentialGroup()
-                .addContainerGap(111, Short.MAX_VALUE)
+                .addContainerGap()
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 452, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
-                        .addComponent(jLabel55)
-                        .addGap(141, 141, 141)))
-                .addContainerGap(111, Short.MAX_VALUE))
+                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(0, 105, Short.MAX_VALUE)
+                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 452, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 105, Short.MAX_VALUE))
+                    .addComponent(jLabel55, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
                 .addGap(100, 100, 100)
                 .addComponent(jLabel55)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(38, 38, 38)
                 .addComponent(jLabel20)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel21)
-                .addGap(43, 43, 43)
+                .addGap(45, 45, 45)
                 .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(65, 65, 65))
         );
@@ -588,17 +603,17 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jLabel53.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel53.setText("Room Rental");
-        jLabel53.setFont(new java.awt.Font("MV Boli", 1, 28)); // NOI18N
+        jLabel53.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel53.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel54.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel54.setText("Book Rooms and manage Rental Payments");
-        jLabel54.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel54.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel54.setForeground(new java.awt.Color(204, 204, 204));
 
         jButton17.setText("Book Room");
         jButton17.setBackground(new java.awt.Color(255, 153, 0));
-        jButton17.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton17.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jButton17.setForeground(new java.awt.Color(255, 255, 255));
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -606,23 +621,23 @@ public class CashierDashboard extends javax.swing.JFrame {
             }
         });
 
+        jLabel56.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/UI/Resouss/rombook.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel54, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
             .addComponent(jLabel53, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel54, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel56, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 452, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(65, 65, 65))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                        .addComponent(jLabel56)
-                        .addGap(218, 218, 218))))
+                .addContainerGap(106, Short.MAX_VALUE)
+                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 452, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(92, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -651,12 +666,12 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel25.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel26.setText("All Invoice View");
-        jLabel26.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton10.setText("Search");
         jButton10.setBackground(new java.awt.Color(0, 51, 255));
-        jButton10.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jButton10.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
@@ -718,33 +733,43 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jPanel34.setBackground(new java.awt.Color(168, 115, 0));
         jPanel34.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 20, 1, 20));
-        jPanel34.setLayout(new java.awt.BorderLayout(0, 10));
+        jPanel34.setLayout(new java.awt.BorderLayout(10, 10));
 
         jPanel48.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel48.setPreferredSize(new java.awt.Dimension(1299, 150));
+        jPanel48.setPreferredSize(new java.awt.Dimension(1299, 180));
 
         jLabel39.setText("Search Available Rooms");
-        jLabel39.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel39.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel39.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel40.setText("Check in Date");
-        jLabel40.setFont(new java.awt.Font("MV Boli", 1, 16)); // NOI18N
+        jLabel40.setFont(new java.awt.Font("Segoe UI Variable", 1, 16)); // NOI18N
         jLabel40.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel41.setText("Check out Date");
-        jLabel41.setFont(new java.awt.Font("MV Boli", 1, 16)); // NOI18N
+        jLabel41.setFont(new java.awt.Font("Segoe UI Variable", 1, 16)); // NOI18N
         jLabel41.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel42.setText("Room Category ");
-        jLabel42.setFont(new java.awt.Font("MV Boli", 1, 16)); // NOI18N
+        jLabel42.setFont(new java.awt.Font("Segoe UI Variable", 1, 16)); // NOI18N
         jLabel42.setForeground(new java.awt.Color(255, 255, 255));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jButton11.setText("Search Rooms");
         jButton11.setBackground(new java.awt.Color(0, 0, 255));
-        jButton11.setFont(new java.awt.Font("MV Boli", 1, 21)); // NOI18N
+        jButton11.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
+
+        jButton13.setText("+ Add Customer");
+        jButton13.setBackground(new java.awt.Color(0, 153, 51));
+        jButton13.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel48Layout = new javax.swing.GroupLayout(jPanel48);
         jPanel48.setLayout(jPanel48Layout);
@@ -753,9 +778,6 @@ public class CashierDashboard extends javax.swing.JFrame {
             .addGroup(jPanel48Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel48Layout.createSequentialGroup()
-                        .addComponent(jLabel39)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel48Layout.createSequentialGroup()
                         .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -767,32 +789,37 @@ public class CashierDashboard extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 123, Short.MAX_VALUE)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(53, 53, 53))))
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 291, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 123, Short.MAX_VALUE)
+                .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, 242, Short.MAX_VALUE)
+                    .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(53, 53, 53))
         );
         jPanel48Layout.setVerticalGroup(
             jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel48Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel39)
                 .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel48Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel39)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel40)
                             .addComponent(jLabel42)
-                            .addComponent(jLabel41))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jLabel41)))
+                    .addGroup(jPanel48Layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel48Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(datePicker1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(datePicker2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel48Layout.createSequentialGroup()
-                        .addGap(1, 1, 1)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30))
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))))
         );
 
         jPanel34.add(jPanel48, java.awt.BorderLayout.PAGE_START);
@@ -812,6 +839,115 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jPanel34.add(jPanel49, java.awt.BorderLayout.CENTER);
 
+        jPanel27.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel27.setPreferredSize(new java.awt.Dimension(400, 566));
+        jPanel27.setLayout(new java.awt.BorderLayout());
+
+        jPanel28.setPreferredSize(new java.awt.Dimension(400, 350));
+
+        jLabel27.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setText("Total :");
+
+        jLabel28.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel28.setText("Rs. 15,000.00");
+        jLabel28.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+
+        jButton14.setBackground(new java.awt.Color(0, 153, 51));
+        jButton14.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setText("Pay Now");
+
+        jButton15.setBackground(new java.awt.Color(0, 102, 255));
+        jButton15.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
+        jButton15.setForeground(new java.awt.Color(255, 255, 255));
+        jButton15.setText("Generate Invoice");
+
+        jLabel29.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setText("Food Price :");
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel30.setText("Rs. 15,000.00");
+        jLabel30.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+
+        jLabel31.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setText("Room Price :");
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel32.setText("Rs. 15,000.00");
+        jLabel32.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+
+        jLabel33.setFont(new java.awt.Font("Segoe UI Variable", 1, 18)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setText("Order ID ");
+
+        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
+        jPanel28.setLayout(jPanel28Layout);
+        jPanel28Layout.setHorizontalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel28Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jTextField4)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel28Layout.createSequentialGroup()
+                                .addComponent(jLabel31)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 96, Short.MAX_VALUE)
+                                .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel28Layout.createSequentialGroup()
+                                .addComponent(jLabel29)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel28Layout.createSequentialGroup()
+                                .addComponent(jLabel27)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(20, 20, 20))))
+        );
+        jPanel28Layout.setVerticalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel28Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(jLabel33)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel32))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(jLabel30))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel27)
+                    .addComponent(jLabel28))
+                .addGap(18, 18, 18)
+                .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33))
+        );
+
+        jPanel27.add(jPanel28, java.awt.BorderLayout.PAGE_END);
+
+        jPanel34.add(jPanel27, java.awt.BorderLayout.LINE_END);
+
         jPanel8.add(jPanel34, java.awt.BorderLayout.CENTER);
 
         jTabbedPane1.addTab("", jPanel8);
@@ -826,12 +962,12 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel50.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel65.setText("Daily Sales View");
-        jLabel65.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel65.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel65.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton12.setText("Search Rooms");
         jButton12.setBackground(new java.awt.Color(0, 0, 255));
-        jButton12.setFont(new java.awt.Font("MV Boli", 1, 16)); // NOI18N
+        jButton12.setFont(new java.awt.Font("Segoe UI Variable", 1, 16)); // NOI18N
         jButton12.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel50Layout = new javax.swing.GroupLayout(jPanel50);
@@ -841,7 +977,7 @@ public class CashierDashboard extends javax.swing.JFrame {
             .addGroup(jPanel50Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addComponent(jLabel65)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 630, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 644, Short.MAX_VALUE)
                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -887,11 +1023,11 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel37.setPreferredSize(new java.awt.Dimension(1359, 50));
 
         jLabel43.setText("Total : ");
-        jLabel43.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel43.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel43.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel44.setText("Rs 18,500.00");
-        jLabel44.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel44.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel44.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel37Layout = new javax.swing.GroupLayout(jPanel37);
@@ -899,7 +1035,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel37Layout.setHorizontalGroup(
             jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel37Layout.createSequentialGroup()
-                .addContainerGap(970, Short.MAX_VALUE)
+                .addContainerGap(975, Short.MAX_VALUE)
                 .addComponent(jLabel43)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -936,32 +1072,32 @@ public class CashierDashboard extends javax.swing.JFrame {
 
         jButton18.setText("Rice");
         jButton18.setBackground(new java.awt.Color(51, 51, 51));
-        jButton18.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton18.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton19.setText("Noodless");
         jButton19.setBackground(new java.awt.Color(51, 51, 51));
-        jButton19.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton19.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton20.setText("All");
         jButton20.setBackground(new java.awt.Color(255, 153, 0));
-        jButton20.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton20.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton21.setText("Dessert");
         jButton21.setBackground(new java.awt.Color(51, 51, 51));
-        jButton21.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton21.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton21.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton22.setText("Koththu");
         jButton22.setBackground(new java.awt.Color(51, 51, 51));
-        jButton22.setFont(new java.awt.Font("MV Boli", 1, 12)); // NOI18N
+        jButton22.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton22.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton8.setText("Search");
         jButton8.setBackground(new java.awt.Color(255, 153, 0));
-        jButton8.setFont(new java.awt.Font("MV Boli", 1, 14)); // NOI18N
+        jButton8.setFont(new java.awt.Font("Segoe UI Variable", 1, 14)); // NOI18N
         jButton8.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
@@ -979,10 +1115,10 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton21)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, 89, Short.MAX_VALUE)
+                .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)
                 .addGap(20, 20, 20))
         );
         jPanel45Layout.setVerticalGroup(
@@ -1011,7 +1147,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel46.setPreferredSize(new java.awt.Dimension(839, 50));
 
         jLabel64.setText("Menu Items");
-        jLabel64.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel64.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel64.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel46Layout = new javax.swing.GroupLayout(jPanel46);
@@ -1021,14 +1157,14 @@ public class CashierDashboard extends javax.swing.JFrame {
             .addGroup(jPanel46Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(jLabel64)
-                .addContainerGap(715, Short.MAX_VALUE))
+                .addContainerGap(700, Short.MAX_VALUE))
         );
         jPanel46Layout.setVerticalGroup(
             jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel46Layout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(jLabel64)
-                .addContainerGap())
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         jPanel44.add(jPanel46, java.awt.BorderLayout.PAGE_START);
@@ -1041,7 +1177,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         );
         jPanel47Layout.setVerticalGroup(
             jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 682, Short.MAX_VALUE)
+            .addGap(0, 729, Short.MAX_VALUE)
         );
 
         jPanel44.add(jPanel47, java.awt.BorderLayout.CENTER);
@@ -1063,7 +1199,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel41.setPreferredSize(new java.awt.Dimension(490, 70));
 
         jLabel63.setText("Current Order");
-        jLabel63.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel63.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jLabel63.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
@@ -1073,17 +1209,19 @@ public class CashierDashboard extends javax.swing.JFrame {
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(jLabel63)
-                .addContainerGap(318, Short.MAX_VALUE))
+                .addContainerGap(315, Short.MAX_VALUE))
         );
         jPanel41Layout.setVerticalGroup(
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(jLabel63)
-                .addContainerGap(17, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         jPanel19.add(jPanel41, java.awt.BorderLayout.PAGE_START);
+
+        jPanel42.setPreferredSize(new java.awt.Dimension(450, 400));
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -1101,69 +1239,69 @@ public class CashierDashboard extends javax.swing.JFrame {
         jPanel40.add(jPanel19, java.awt.BorderLayout.PAGE_START);
 
         jPanel24.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel24.setPreferredSize(new java.awt.Dimension(519, 300));
+        jPanel24.setPreferredSize(new java.awt.Dimension(450, 300));
 
         jButton5.setText("Pay Now");
         jButton5.setBackground(new java.awt.Color(0, 153, 51));
-        jButton5.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton7.setText("Generate Invoice");
         jButton7.setBackground(new java.awt.Color(0, 102, 255));
-        jButton7.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton7.setFont(new java.awt.Font("Segoe UI Variable", 1, 24)); // NOI18N
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel22.setText("Subtotal");
-        jLabel22.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel23.setText("Rs. 15,650.00");
-        jLabel23.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel24.setText("Discount");
-        jLabel24.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel25.setText("2%");
-        jLabel25.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel57.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel57.setText("Rs. 15,337.00");
-        jLabel57.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel57.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel57.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel58.setText("Total");
-        jLabel58.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel58.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel58.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel59.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel59.setText("Rs.15,500.00");
-        jLabel59.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel59.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel59.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel60.setText("Money Given");
-        jLabel60.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel60.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel60.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel61.setText("Balance");
-        jLabel61.setFont(new java.awt.Font("MV Boli", 1, 22)); // NOI18N
+        jLabel61.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel61.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel62.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel62.setText("- Rs.500.00");
-        jLabel62.setFont(new java.awt.Font("MV Boli", 1, 18)); // NOI18N
+        jLabel62.setFont(new java.awt.Font("Segoe UI Variable", 1, 22)); // NOI18N
         jLabel62.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
         jPanel24Layout.setHorizontalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel24Layout.createSequentialGroup()
-                .addGap(60, 60, 60)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
                 .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel24Layout.createSequentialGroup()
                         .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1187,12 +1325,12 @@ public class CashierDashboard extends javax.swing.JFrame {
                         .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(60, 60, 60))
+                .addGap(50, 50, 50))
         );
         jPanel24Layout.setVerticalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel24Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
+                .addContainerGap(107, Short.MAX_VALUE)
                 .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel22)
                     .addComponent(jLabel23))
@@ -1216,7 +1354,7 @@ public class CashierDashboard extends javax.swing.JFrame {
                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35))
+                .addGap(39, 39, 39))
         );
 
         jPanel40.add(jPanel24, java.awt.BorderLayout.CENTER);
@@ -1238,7 +1376,7 @@ public class CashierDashboard extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1095, Short.MAX_VALUE)
         );
 
         pack();
@@ -1295,6 +1433,12 @@ public class CashierDashboard extends javax.swing.JFrame {
             jTabbedPane1.setSelectedIndex(2);
     }//GEN-LAST:event_jButton17ActionPerformed
 
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+        AddNewCustomer addNewCustomer = new AddNewCustomer();
+        addNewCustomer.setVisible(true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1338,6 +1482,9 @@ public class CashierDashboard extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
@@ -1372,7 +1519,14 @@ public class CashierDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
@@ -1419,6 +1573,8 @@ public class CashierDashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel25;
     private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel34;
     private javax.swing.JPanel jPanel35;
@@ -1449,5 +1605,6 @@ public class CashierDashboard extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     // End of variables declaration//GEN-END:variables
 }

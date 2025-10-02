@@ -44,7 +44,7 @@ public class AllVIewFood extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("MV Boli", 1, 26)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI Variable", 1, 26)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("All Food View");
 
@@ -87,7 +87,7 @@ public class AllVIewFood extends javax.swing.JFrame {
                     .addComponent(jLabel1))
                 .addGap(31, 31, 31)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 643, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
